@@ -52,6 +52,59 @@ header {
 #header-nav, #close-menu, #header-cta {
     display: none;
 }
+.btn {
+    padding: 0.7rem 1.75rem; 
+    font-size: 0.85rem;
+}
+.cta-btn {
+    text-decoration: none;
+    border-radius: 10rem;
+    color:hsl(0, 0%, 100%);
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+}
+/* Hero Section */
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.hero-img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url('/images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-img {
+    width: 91%;
+    margin-top: -6.7rem;
+}
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    letter-spacing: -0.8px;
+    margin: 1.5rem 0 0.8rem;
+    color: hsl(233, 26%, 24%);
+}
+.hero-sub-heading {
+    font-size: 0.81rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin: 0 0 1.5rem;
+    padding: 0 1.5rem;
+    color: hsla(233, 26%, 24%, 0.6);
+}
+
 /* Desktop */
 @media screen and (min-width: 1024px) {
     /* Header Section */
@@ -90,11 +143,5 @@ header {
     #header-cta {
         position: relative;
         display: block;
-        font-size: 0.85rem;
-        text-decoration: none;
-        padding: 0.7rem 1.75rem;
-        border-radius: 10rem;
-        color:hsl(0, 0%, 100%);
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%)); 
     }
 }
