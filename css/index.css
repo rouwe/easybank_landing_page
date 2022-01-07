@@ -43,7 +43,7 @@ header {
     background-color: hsl(0, 0%, 100%);
 }
 .nav-item-box {
-    margin: 0.5rem 0;
+    margin: 0.7rem 0;
 }
 .nav-item {
     text-decoration: none;
@@ -52,14 +52,18 @@ header {
 #header-nav, #close-menu, #header-cta {
     display: none;
 }
+.menu-open-bg {
+    background: linear-gradient(hsl(233deg 26% 24% / 100%), transparent)
+}
 .btn {
     padding: 0.7rem 1.75rem; 
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 .cta-btn {
+    font-weight: 700;
     text-decoration: none;
     border-radius: 10rem;
-    color:hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 98%);
     background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
 }
 /* Hero Section */
@@ -76,7 +80,8 @@ header {
     width: 100%;
     background-image: url('/images/bg-intro-mobile.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: left;
+    z-index: -1;
 }
 .hero-img {
     width: 91%;
@@ -100,9 +105,9 @@ header {
     font-size: 0.81rem;
     font-weight: 400;
     line-height: 1.4rem;
-    margin: 0 0 1.5rem;
+    margin: 0 0 1.8rem;
     padding: 0 1.5rem;
-    color: hsla(233, 26%, 24%, 0.6);
+    color: hsl(233, 26%, 24%, 0.6);
 }
 
 /* Desktop */
@@ -138,10 +143,43 @@ header {
     .nav-item {
         font-size: 0.8rem;
         letter-spacing: -0.5px;
-        color: hsla(233, 26%, 24%, 0.6);
+        color: hsl(233, 26%, 24%, 0.6);
     }
     #header-cta {
         position: relative;
         display: block;
+    }
+    main {
+        padding-left:9.15rem;
+    }
+    /* Hero Section */
+    #hero-section {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    .hero-img-container {
+        background-image: url('/images/bg-intro-desktop.svg');
+        background-position: left bottom;
+        background-attachment: local;
+        background-size: auto;
+    }
+    .hero-img {
+        width: 100%;
+        margin: -5.9rem 0 -3.2rem 17rem;
+    }
+    .hero-text-container {
+        width: 55%;
+        align-items: flex-start;
+        text-align: left;
+        margin-top: 7.3rem;
+    }
+    .hero-heading {
+        font-size: 3.1rem;
+    }
+    .hero-sub-heading {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        line-height: 1.6rem;
+        padding: 0;
     }
 }
