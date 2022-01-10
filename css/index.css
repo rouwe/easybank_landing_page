@@ -359,7 +359,7 @@ footer.sections {
         align-items: flex-start;
     }
     .hero-img-container {
-        background-image: url('/images/bg-intro-desktop.svg');
+        background-image: url('./images/bg-intro-desktop.svg');
         background-position: left bottom;
         background-attachment: local;
         background-size: auto;
