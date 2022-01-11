@@ -398,9 +398,9 @@ footer.sections {
         width: 60%;
         margin-bottom: 2rem;
     }
-    #features-section {
+/*     #features-section {
         margin-top: -5rem;
-    }
+    } */
     #features-section .heading,  #features-section .sub-heading {
         width: 100%;
         text-align: left;
