@@ -83,7 +83,7 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url('/images/bg-intro-mobile.svg');
+    background-image: url('../images/bg-intro-mobile.svg');
     background-repeat: no-repeat;
     background-position: left;
     z-index: -1;
@@ -359,7 +359,7 @@ footer.sections {
         align-items: flex-start;
     }
     .hero-img-container {
-        background-image: url('/images/bg-intro-desktop.svg');
+        background-image: url('../images/bg-intro-desktop.svg');
         background-position: left bottom;
         background-attachment: local;
         background-size: auto;
