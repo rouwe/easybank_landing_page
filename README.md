@@ -21,7 +21,11 @@ Users should be able to:
 
 ### Screenshot
 
-![My Solution](./design/MyPreview.png)
+#### _Desktop & Mobile Preview_
+
+![Desktop Preview](./design/MyDesktop.png)
+![Mobile Preview](./design/MyMobile.png)
+![Mobile Menu Preview](./design/MyMobileMenu.png)
 
 ### Links
 
