@@ -376,6 +376,7 @@ footer.sections {
         align-items: flex-start;
         text-align: left;
         margin-top: 7.3rem;
+        padding-bottom: 20%;
     }
     .hero-heading {
         font-size: 3.1rem;
