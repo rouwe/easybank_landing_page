@@ -357,7 +357,7 @@ footer.sections {
     #hero-section {
         flex-direction: row-reverse;
         align-items: flex-start;
-        padding-bottom: 0;
+        padding-bottom: 1.5rem;
     }
     .hero-img-container {
         background-image: url('../images/bg-intro-desktop.svg');
