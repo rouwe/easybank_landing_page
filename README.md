@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Go to frontendmentor.io](https://www.frontendmentor.io/solutions/landing-page-using-grid-and-flexbox-Q9boPwkuD)
-- Live Site URL: [View live site](https://rouwe.github.io/easybank_landing_page/)
+- Live Site URL: [View live site](https://rouwe.github.io/fem_easybank_landing_page/)
 
 ## My process
 
@@ -55,7 +55,7 @@ I will be focusing more on responsive design.
 
 ## Author
 
-- Frontend Mentor - [Rouwe](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Rouwe](https://www.frontendmentor.io/profile/rouwe)
 
 ## Acknowledgments
 
